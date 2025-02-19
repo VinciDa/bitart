@@ -1,0 +1,172 @@
+body {
+    width: 100%;
+    font-family: sofia-pro;
+}
+
+.navcustom {
+    background-color: #1D1D37;
+}
+
+.navcustom nav {
+    top: 17px;
+}
+.logo-img{
+    height: 31px;
+    margin-left: 66px;
+}
+
+/* first section */
+.main-first {
+    background-color: #1D1D37;
+    color: white;
+}
+
+.first-content {
+    display: flex;
+}
+
+.customForm{
+    background-color: #1D1D37 !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+    border-radius: 0px !important;
+    color: white !important;
+}
+.customForm:focus {
+    box-shadow: none !important;
+ }
+
+.first-context {
+    position: relative;
+    margin: 60px 0px 30px 64px;
+    width: 30%;
+}
+
+.first-context button {
+    color: white;
+    border-radius: 0px;
+    background-color: #8169FF;
+    margin-top: 50px;
+}
+
+.first-location {
+    position: relative;
+    margin: 60px 10px 20px 300px;
+    width: 40%;
+}
+
+.first-location-content {
+    background-color: #8169FF;
+    padding: 100px;
+
+}
+
+
+.loader{
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 9999999;
+}
+.alertt{
+    display: block;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+}
+
+
+
+/* second section */
+
+.main-second {
+    background-color: white;
+}
+
+.main-second img {
+    max-width: 100%;
+}
+
+
+
+
+/* sixth section */
+.main-sixth {
+    background-color: #1D1D37;
+}
+
+.sixth-content {
+    display: flex;
+    color: white;
+}
+
+.sixth-content button {
+    background-color: #8169FF;
+    color: white;
+
+}
+
+.footer {
+    margin: 100px;
+    flex-grow: 1;
+}
+
+.footer button {
+    margin-top: 60px;
+}
+
+.footer :nth-child(2) {
+    flex-shrink: 5;
+}
+
+.footer-link {
+    color: white;
+    display: flex;
+    flex-flow: column;
+}
+
+.footer-link a {
+    padding: 6px;
+}
+
+@media(max-width:767px){
+
+    .navcustom nav{
+        top: 0px;
+    }
+    .logo-img{
+        height: 31px;
+        margin-left: 0px;
+    }
+
+    /* first section */
+    .first-content{
+        flex-flow: column;
+    }
+    .first-context{
+        margin: 50px 0px 30px 40px;
+        width: 80%;
+    }
+    .first-location{ 
+        margin: 30px 10px 20px 40px;
+        width: 80%;
+    }
+    .first-location-content{
+        padding: 30px;
+    }
+
+    .alertt{
+        top: 38%;
+        left: 0%;
+    }
+       /* sixth section */
+       .sixth-content{
+        display: block;
+        padding-top: 20px;
+    }
+    .footer{
+        margin: 47px 0px 20px 30px;
+    }
+
+}
